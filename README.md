@@ -108,9 +108,9 @@ git clone https://github.com/N4si/K8s-voting-app.git
 
 **Create CloudChamp Namespace**
 ```
-kubectl create ns cloudchamp
+kubectl create ns votingApp
 
-kubectl config set-context --current --namespace cloudchamp
+kubectl config set-context --current --namespace votingApp
 ```
 
 **MONGO Database Setup**
